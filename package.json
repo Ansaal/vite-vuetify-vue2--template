@@ -1,0 +1,22 @@
+{
+  "name": "broker-lead",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.6.2",
+    "vue": "^2.6.14",
+    "vuetify": "^2.6.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "unplugin-vue2-script-setup": "^0.11.0",
+    "vite": "^2.9.9",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue-tsc": "^0.34.7"
+  }
+}
